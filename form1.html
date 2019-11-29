@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width>, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Form</title>
+</head>
+
+<body>
+	<header>
+		<h1>HTML Form</h1>
+		<nav>
+			<a href="index.html">Index</a>
+		</nav>
+	</header>
+	<main>
+		<h1>Анкета відвідувача ресторану </h1>
+		<h2>Контактна інформація</h2>
+		<form method="POST" action="https://formspree.io/xoqvjzwr">
+			<label>Ім'я:
+                <input type="text" placeholder="Name" name="name" required>
+            </label>
+			<br>
+			<label>Телефон:
+                <input type="text" placeholder="Telephon" name="telephon" required>
+            </label>
+			<br>
+			<label>Email:
+                <input type="email" placeholder="Email" name="email" required>
+            </label>
+			<br>
+			<label>Дата відвідування:
+                <textarea></textarea>
+            </label>
+			<br>
+			<hr>
+
+			<h2>Особиста інформація</h2>
+			
+			<label>Вік:
+                <input type="number" placeholder="Number" name="age" required>
+            </label>
+			<br>
+			<label>Улюблена кухня:</label>
+			<br>
+			<label>
+                <input type="radio" name="love-kitchen" value="ukraine" name="male">Українська
+            </label>
+			<br>
+			<label>
+                <input type="radio" name="love-kitchen" value="kitayska">Китайська
+            </label>
+			<br>
+			<label>
+                <input type="radio" name="love-kitchen" value="gruzinska">Грузинська
+            </label>
+				<br>
+			<label>
+                <input type="radio" name="love-kitchen" value="other">Інша
+            </label>
+				<br>
+			<label>Які страви ви б хотіли бачити в меню:<br>
+                <textarea></textarea>
+            </label>
+				<br>
+                <hr>
+				<h2>Оцінка нашого закладу</h2>
+				<h3>Чому Ви вибрали наш ресторан?</h3>
+                <br>
+			<label>
+                <input type="radio" name="choice" value="male" name="house">Недалеко від дому/роботи
+            </label>
+			<br>
+			<label>
+                <input type="radio" name="choice" value="advertising">Побачив рекламу
+            </label>
+			<br>
+			<label>
+                <input type="radio" name="choice" value="recomedation">Порекомендували
+            </label>
+			<br>
+			<label>
+                <input type="radio" name="choice" value="price">Оптимальне відношення ціни і якості
+            <label>
+            <br>
+
+            <h3>Ви будете рекомендувати наш заклад своїм знайомим?</h3>
+            <label>
+                <input type="radio" name="answer" value="yes">Так
+            </label>
+			<br>
+			<label>
+                 <input type="radio" name="answer" value="no">Ні
+            </label>
+            <br>
+			<hr>
+			<label>
+                <input type="submit" value="відправити">
+            </label>
+		</form>
+	</main>
+
+</body>
+</html>
